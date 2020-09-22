@@ -2946,7 +2946,6 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
-			font-weight: bold;
 		}
 
 		@media screen and (max-width: 1280px) {
