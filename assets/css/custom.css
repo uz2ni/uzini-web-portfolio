@@ -28,7 +28,36 @@ a {
     color: white;
 }
 
-    /* iframe 반응형 css */
+.wrapper .h2-sec {
+    color: #f6755e;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+.img-sec-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-wrap img {
+    max-width: 45%;
+}
+
+@media screen and (max-width: 980px) {
+
+    .sec-wrap img {
+        max-width: 100%;
+    }
+
+    .img-sec-wrap {
+        display: inherit;
+        text-align: center;
+    }
+}
+
+/* iframe 반응형 css */
 .videowrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 비율인 경우 */
